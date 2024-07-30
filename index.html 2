@@ -87,6 +87,51 @@
             line-height: 1.6;
             font-size: 18px; /* Larger font size for paragraph text */
         }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .team-member {
+            width: 45%; /* Adjust as needed to fit two per row */
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .team-member:hover img {
+            transform: scale(1.05);
+        }
+
+        .team-member .name {
+            margin: 10px 0;
+            font-size: 24px; /* Adjust font size as needed */
+            font-weight: bold;
+            color: #333333;
+            border: none; /* Remove border */
+            background: none; /* Remove background */
+            text-align: center; /* Center the text */
+            width: 100%; /* Ensure the input takes full width */
+            pointer-events: none; /* Make the input non-editable */
+        }
+
+        .team-member .description {
+            font-size: 20px; /* Larger font size for description */
+            color: #555555;
+        }
+
+        section#team h1 {
+            font-size: 28px; /* Font size for "Meet Our Team" section heading */
+        }
+
     </style>
 </head>
 <body>
@@ -97,13 +142,14 @@
                 <li><a href="#goals">Goals</a></li>
                 <li><a href="#team">Meet Our Team</a></li>
                 <li><a href="#future">Future Plans</a></li>
+                <li><a href="#upload">Upload</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="mission">
             <h1>Mission Statement</h1>
-            <p>Our mission is to empower high school students to achieve their full potential by providing a dynamic platform for connection, inspiration, and growth. We aim to foster a supportive community where ambitious students can network, collaborate, and access valuable resources. Through our platform, we strive to inspire the next generation of leaders, innovators, and change-makers, ensuring that every student has the opportunity to pursue their dreams and succeed.</p>
+            <p>Our mission is to empower high school students to achieve their full potential by providing a dynamic platform for connection, inspiration, and growth.</p>
         </section>
         <section id="goals">
             <h1>Goals</h1>
@@ -111,11 +157,59 @@
         </section>
         <section id="team">
             <h1>Meet Our Team</h1>
-            <p>Our team is comprised of dedicated professionals and mentors who are passionate about helping high school students succeed.</p>
+            <div class="team-container">
+                <!-- Team Member 1 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Daniyal Siddiqui" readonly>
+                    <img src="Daniyal.jpeg" alt="Daniyal Siddiqui">
+                    <p class="description">Hello, I'm Daniyal! I am the co-CEO and co-founder of Occasio. Through hard work and dedication, I lead our team's efforts to transform Occasio into a revolutionary platform. In my free time, I enjoy golfing and learning more about the world of Computer Science.</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Person 2" readonly>
+                    <img src="images/image2.png" alt="Team Member 2">
+                    <p class="description">Description for Person 2</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Person 3" readonly>
+                    <!-- Add your image path here -->
+                    <img src="images/your-image.jpg" alt="Team Member 3">
+                    <p class="description">Description for Person 3</p>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Person 4" readonly>
+                    <!-- Add your image path here -->
+                    <img src="images/your-image.jpg" alt="Team Member 4">
+                    <p class="description">Description for Person 4</p>
+                </div>
+                <!-- Team Member 5 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Person 5" readonly>
+                    <!-- Add your image path here -->
+                    <img src="images/your-image.jpg" alt="Team Member 5">
+                    <p class="description">Description for Person 5</p>
+                </div>
+                <!-- Team Member 6 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Person 6" readonly>
+                    <!-- Add your image path here -->
+                    <img src="images/your-image.jpg" alt="Team Member 6">
+                    <p class="description">Description for Person 6</p>
+                </div>
+            </div>
         </section>
         <section id="future">
             <h1>Future Plans</h1>
             <p>We plan to continuously expand our platform, introduce new features, and provide more opportunities for students. Stay tuned for upcoming dates and announcements.</p>
+        </section>
+        <section id="upload">
+            <h1>Upload a File</h1>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Image" name="submit">
+            </form>
         </section>
     </main>
     <script>
