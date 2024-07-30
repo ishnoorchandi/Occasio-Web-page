@@ -101,14 +101,15 @@
         }
 
         .team-member img {
-            width: 100%;
-            height: auto;
+            width: 200px; /* Fixed size */
+            height: 200px; /* Fixed size */
+            object-fit: cover; /* Ensure the image covers the container */
             border-radius: 8px;
             transition: transform 0.3s ease;
         }
 
         .team-member:hover img {
-            transform: scale(1.05);
+            transform: scale(1.05); /* Slightly enlarge on hover */
         }
 
         .team-member .name {
@@ -131,7 +132,6 @@
         section#team h1 {
             font-size: 28px; /* Font size for "Meet Our Team" section heading */
         }
-
     </style>
 </head>
 <body>
@@ -166,37 +166,35 @@
                 </div>
                 <!-- Team Member 2 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Person 2" readonly>
-                    <img src="images/image2.png" alt="Team Member 2">
-                    <p class="description">Description for Person 2</p>
+                    <input class="name" type="text" value="Sohan Arigela" readonly>
+                    <img src="Sohan.jpeg" alt="Sohan Arigela">
+                    <p class="description">Hello my name is Sohan Arigela I am a co-founder and co-CEO at Occasio, I am currently a sophomore at Lightridge High School. Through my deep passion for software development and artificial intelligence I hope to bring success to our company's name. Outside of STEM, in my free time, I enjoy watching and playing cricket, basketball, and soccer.</p>
                 </div>
                 <!-- Team Member 3 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Person 3" readonly>
-                    <!-- Add your image path here -->
-                    <img src="images/your-image.jpg" alt="Team Member 3">
-                    <p class="description">Description for Person 3</p>
+                    <input class="name" type="text" value="Srihas Motati" readonly>
+                    <img src="Srihas.jpeg" alt="Srihas Motati">
+                    <p class="description">Hello my name is Srihas, I am the head of development here at Occasio. I am a sophomore at Lightridge High School, through my passionate interest in Machine Learning and AI, I lead our team's development skills in hopes for Occasio to be an inspiring platform used by students all over the world. In my free time, I like to play basketball, Fortnite, and learn more about the world of Artificial Intelligence and its capabilities.</p>
                 </div>
                 <!-- Team Member 4 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Person 4" readonly>
+                    <input class="name" type="text" value="Ishnoor Chandi" readonly>
                     <!-- Add your image path here -->
-                    <img src="images/your-image.jpg" alt="Team Member 4">
-                    <p class="description">Description for Person 4</p>
+                    <img src="Ishnoor.heic" alt="Ishnoor Chandi">
+                    <p class="description">* <!-- Add description here --></p>
                 </div>
                 <!-- Team Member 5 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Person 5" readonly>
-                    <!-- Add your image path here -->
-                    <img src="images/your-image.jpg" alt="Team Member 5">
-                    <p class="description">Description for Person 5</p>
+                    <input class="name" type="text" value="Arjav Iyer" readonly>
+                    <img src="Arjav.jpeg" alt="Arjav Iyer">
+                    <p class="description">Hi my name is Arjav Iyer, I will be working as a software developer for Occasio! I am a sophomore at Rock Ridge high school and am proficient in software development and math. I play ECNL RL soccer for Herndon, and varsity for my school! Outside of sports, I am a class president and also participate in many math and computer science competitions.</p>
                 </div>
                 <!-- Team Member 6 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Person 6" readonly>
+                    <input class="name" type="text" value="Ashwath Muppa" readonly>
                     <!-- Add your image path here -->
-                    <img src="images/your-image.jpg" alt="Team Member 6">
-                    <p class="description">Description for Person 6</p>
+                    <img src="path/to/your-image.jpg" alt="Ashwath Muppa">
+                    <p class="description">* <!-- Add description here --></p>
                 </div>
             </div>
         </section>
