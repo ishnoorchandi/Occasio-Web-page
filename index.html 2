@@ -60,31 +60,31 @@
 
         section {
             margin: 20px 0; /* Adjust margin to give space around sections */
-            padding: 20px;
+            padding: 40px; /* Increased padding */
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-            max-width: 800px; /* Set a max-width to prevent sections from being too wide */
-            width: 100%;
+            width: 100%; /* Stretch sections to full width */
+            max-width: 1200px; /* Set a max-width to prevent sections from being too wide */
             box-sizing: border-box; /* Include padding and border in the element's total width and height */
         }
 
         section:hover {
             background-color: #FD5C5C; /* Sweet Poppy */
-            transform: scale(1.04); /* Slightly increase size */
+            transform: scale(1.02); /* Slightly increase size */
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow for pop-out effect */
         }
 
         section h1 {
             color: #B1D373; /* Sweet Leaf */
-            font-size: 24px; /* Adjusted font size for section headings */
+            font-size: 28px; /* Larger font size for section headings */
         }
 
         section p {
             color: #333333;
             line-height: 1.6;
-            font-size: 16px; /* Adjusted font size for paragraph text */
+            font-size: 18px; /* Larger font size for paragraph text */
         }
     </style>
 </head>
