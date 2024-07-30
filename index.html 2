@@ -10,6 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            scroll-behavior: smooth; /* Default smooth scrolling for browsers that support it */
         }
 
         header {
@@ -117,5 +118,16 @@
             <p>We plan to continuously expand our platform, introduce new features, and provide more opportunities for students. Stay tuned for upcoming dates and announcements.</p>
         </section>
     </main>
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
