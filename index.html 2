@@ -122,23 +122,11 @@
             text-align: center; /* Center the text */
             width: 100%; /* Ensure the input takes full width */
             pointer-events: none; /* Make the input non-editable */
-            transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
-        }
-
-        .team-member:hover .name {
-            color: #FD5C5C; /* Sweet Poppy */
-            transform: scale(1.1); /* Slightly enlarge on hover */
         }
 
         .team-member .description {
-            font-size: 20px; /* Larger font size for description */
+            font-size: 16px; /* Reduced font size by 4 pixels */
             color: #555555;
-            transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
-        }
-
-        .team-member:hover .description {
-            color: #333333; /* Darker color for hover */
-            transform: scale(1.05); /* Slightly enlarge on hover */
         }
 
         section#team h1 {
@@ -180,7 +168,7 @@
                 <div class="team-member">
                     <input class="name" type="text" value="Sohan Arigela" readonly>
                     <img src="Sohan.jpeg" alt="Sohan Arigela">
-                    <p class="description">Hello my name is Sohan Arigela I am a co-founder and co-CEO at Occasio, I am currently a sophomore at Lightridge High School. Through my deep passion for software development and artificial intelligence I hope to bring success to our company's name. Outside of STEM in my free time I enjoy watching and playing cricket, basketball, and soccer.</p>
+                    <p class="description">Hello my name is Sohan Arigela I am a co-founder and co-CEO at Occasio, I am currently a sophomore at Lightridge High School. Through my deep passion for software development and artificial intelligence I hope to bring success to our company's name. Outside of STEM, in my free time, I enjoy watching and playing cricket, basketball, and soccer.</p>
                 </div>
                 <!-- Team Member 3 -->
                 <div class="team-member">
@@ -202,20 +190,4 @@
                 </div>
                 <!-- Team Member 6 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Ashwath Muppa" readonly>
-                    <img src="default-placeholder.jpg" alt="Ashwath Muppa"> <!-- Placeholder image -->
-                    <p class="description">* <!-- Add description here --></p>
-                </div>
-            </div>
-        </section>
-        <section id="future">
-            <h1>Future Plans</h1>
-            <p>Our upcoming plans include expanding our platform's features, enhancing user engagement, and launching new initiatives to support student growth and success.</p>
-        </section>
-        <section id="upload">
-            <h1>Upload</h1>
-            <p>Here you can upload documents and images related to our platform.</p>
-        </section>
-    </main>
-</body>
-</html>
+                    <input class
