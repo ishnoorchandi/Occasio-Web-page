@@ -14,35 +14,41 @@
 
         header {
             background-color: #B1D373; /* Sweet Leaf */
-            padding: 20px 0; /* Adjusted padding */
+            padding: 10px 0; /* Adjusted padding */
             text-align: center; /* Center the text in the banner */
             height: 60px; /* Adjusted height */
             display: flex;
             align-items: center;
             justify-content: center;
+            border-bottom: 2px solid #B1D373; /* Adjust border color or width */
         }
 
         nav ul {
             list-style: none;
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly; /* Evenly distribute items */
             margin: 0;
             padding: 0;
+            width: 100%; /* Ensure the nav takes full width */
+            max-width: 1000px; /* Control maximum width for proper spacing */
         }
 
         nav ul li {
-            margin: 0 15px; /* Spacing between navigation items */
+            margin: 0; /* Remove margin between list items */
         }
 
         nav ul li a {
             text-decoration: none;
             color: #ffffff;
-            font-size: 26px; /* Increased font size by 8px */
+            font-size: 24px; /* Font size for navigation links */
             font-weight: bold;
+            padding: 10px 20px; /* Added padding for clickable area and spacing */
+            transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
         }
 
         nav ul li a:hover {
             color: #FD5C5C; /* Sweet Poppy */
+            transform: scale(1.1); /* Slightly enlarge on hover */
         }
 
         main {
@@ -72,13 +78,13 @@
 
         section h1 {
             color: #B1D373; /* Sweet Leaf */
-            font-size: 32px; /* Increased font size by 8px */
+            font-size: 24px; /* Adjusted font size for section headings */
         }
 
         section p {
             color: #333333;
             line-height: 1.6;
-            font-size: 24px; /* Increased font size by 8px */
+            font-size: 16px; /* Adjusted font size for paragraph text */
         }
     </style>
 </head>
