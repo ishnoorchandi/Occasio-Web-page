@@ -179,7 +179,7 @@
                 <!-- Team Member 4 -->
                 <div class="team-member">
                     <input class="name" type="text" value="Ishnoor Chandi" readonly>
-                    <img src="Ishnoor.heic" alt="Ishnoor Chandi">
+                    <img src="Ishnoor.jpeg.jpg" alt="Ishnoor Chandi">
                     <p class="description">* <!-- Add description here --></p>
                 </div>
                 <!-- Team Member 5 -->
