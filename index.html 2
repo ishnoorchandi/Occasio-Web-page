@@ -13,6 +13,10 @@
             scroll-behavior: smooth; /* Default smooth scrolling for browsers that support it */
         }
 
+        html {
+            scroll-behavior: smooth; /* Smooth scrolling for browsers that support it */
+        }
+
         header {
             background-color: #B1D373; /* Sweet Leaf */
             padding: 10px 0; /* Adjusted padding */
@@ -114,7 +118,7 @@
 
         .team-member .name {
             margin: 10px 0;
-            font-size: 20px; /* Reduced font size by 4 pixels from the previous version */
+            font-size: 24px; /* Adjust font size as needed */
             font-weight: bold;
             color: #333333;
             border: none; /* Remove border */
@@ -125,7 +129,7 @@
         }
 
         .team-member .description {
-            font-size: 16px; /* Reduced font size by 4 pixels from the previous version */
+            font-size: 16px; /* Reduced font size for description */
             color: #555555;
         }
 
@@ -142,7 +146,6 @@
                 <li><a href="#goals">Goals</a></li>
                 <li><a href="#team">Meet Our Team</a></li>
                 <li><a href="#future">Future Plans</a></li>
-                <!-- <li><a href="#upload">Upload</a></li> Removed the upload link -->
             </ul>
         </nav>
     </header>
@@ -180,7 +183,7 @@
                 <div class="team-member">
                     <input class="name" type="text" value="Ishnoor Chandi" readonly>
                     <img src="Ishnoor.jpeg.jpg" alt="Ishnoor Chandi">
-                    <p class="description">* <!-- Add description here --></p>
+                    <p class="description">Hello, my name is Ishnoor and I am the lead for the frontend development of Occasio. I am a sophomore attending Lightridge High School. My goal is to make Occasio’s tools and user interface as professional, modern, and adaptive as possible in order to help users get the most out of our platform. In my free time, I like to play chess and compete for my school track team.</p>
                 </div>
                 <!-- Team Member 5 -->
                 <div class="team-member">
@@ -192,15 +195,14 @@
                 <div class="team-member">
                     <input class="name" type="text" value="Ashwath Muppa" readonly>
                     <img src="path/to/your-image.jpg" alt="Ashwath Muppa">
-                    <p class="description">* <!-- Add description here --></p>
+                    <p class="description">Hello, my name is Ashwath Muppa and I am a software developer at Occasio. I am a junior at Lightridge High School and have a strong interest in both software development and data analysis. I enjoy solving complex problems and creating innovative solutions. In my free time, I like to cook and read about finance.</p>
                 </div>
             </div>
         </section>
         <section id="future">
             <h1>Future Plans</h1>
-            <p>We plan to continuously expand our platform, introduce new features, and provide more opportunities for students. Stay tuned for upcoming dates and announcements.</p>
+            <p>Our future plans include expanding our platform's features, incorporating user feedback, and continuously improving to meet the evolving needs of our community. We aim to create new tools and resources that will further support high school students in their personal and academic growth.</p>
         </section>
-        <!-- Removed the upload section -->
     </main>
     <script>
         document.querySelectorAll('nav ul li a').forEach(anchor => {
