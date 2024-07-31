@@ -195,7 +195,7 @@
                 <div class="team-member">
                     <input class="name" type="text" value="Ashwath Muppa" readonly>
                     <img src="path/to/your-image.jpg" alt="Ashwath Muppa">
-                    <p class="description">Hello, my name is Ashwath Muppa and I am a software developer at Occasio. I am a junior at Lightridge High School and have a strong interest in both software development and data analysis. I enjoy solving complex problems and creating innovative solutions. In my free time, I like to cook and read about finance.</p>
+                    <p class="description">Hi, my name is Ashwath Muppa</p>
                 </div>
             </div>
         </section>
