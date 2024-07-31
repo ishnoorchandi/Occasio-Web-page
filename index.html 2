@@ -177,7 +177,7 @@
                 <div class="team-member">
                     <input class="name" type="text" value="Ishnoor Chandi" readonly>
                     <img src="Ishnoor.jpeg.jpg" alt="Ishnoor Chandi">
-                    <p class="description">Hello, my name is Ishnoor and I am the lead for the frontend development of Occasio. I am a sophomore attending Lightridge High School. My goal is to make Occasio’s tools and user interface as professional, modern, and adaptive as possible in order to help users get the most out of our platform. In my free time, I like to play chess and compete for my school track team.</p>
+                    <p class="description">Hello, my name is Ishnoor and I am the lead for the frontend development of Occasio. I am currently a sophomore attending Lightridge High School. My goal is to make Occasio’s tools and user interface as professional, modern, and intuitive as possible, ensuring users get the most out of our platform. In my free time, I like to play chess and compete for my school track team.</p>
                 </div>
                 <!-- Team Member 4 -->
                 <div class="team-member">
