@@ -175,45 +175,46 @@
                 </div>
                 <!-- Team Member 3 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Srihas Motati" readonly>
-                    <img src="Srihas.jpeg" alt="Srihas Motati">
-                    <p class="description">Hello my name is Srihas, I am the head of development here at Occasio. I am a sophomore at Lightridge High School, through my passionate interest in Machine Learning and AI, I lead our team's development skills in hopes for Occasio to be an inspiring platform used by students all over the world. In my free time, I like to play basketball, Fortnite, and learn more about the world of Artificial Intelligence and its capabilities.</p>
-                </div>
-                <!-- Team Member 4 -->
-                <div class="team-member">
                     <input class="name" type="text" value="Ishnoor Chandi" readonly>
                     <img src="Ishnoor.jpeg.jpg" alt="Ishnoor Chandi">
                     <p class="description">Hello, my name is Ishnoor and I am the lead for the frontend development of Occasio. I am a sophomore attending Lightridge High School. My goal is to make Occasio’s tools and user interface as professional, modern, and adaptive as possible in order to help users get the most out of our platform. In my free time, I like to play chess and compete for my school track team.</p>
                 </div>
+                <!-- Team Member 4 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Ashwath Muppa" readonly>
+                    <img src="path/to/your-image.jpg" alt="Ashwath Muppa">
+                    <p class="description">Hi my name is Ashwath,</p>
+                </div>
                 <!-- Team Member 5 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Srihas Motati" readonly>
+                    <img src="Srihas.jpeg" alt="Srihas Motati">
+                    <p class="description">Hello my name is Srihas, I am a software developer here at Occasio. I am a sophomore at Lightridge High School, through my passionate interest in Machine Learning and AI, I assist our team's development skills in hopes for Occasio to be an inspiring platform used by students all over the world. In my free time, I like to play basketball, Fortnite, and learn more about the world of Artificial Intelligence and its capabilities.</p>
+                </div>
+                <!-- Team Member 6 -->
                 <div class="team-member">
                     <input class="name" type="text" value="Arjav Iyer" readonly>
                     <img src="Arjav.jpeg" alt="Arjav Iyer">
                     <p class="description">Hi my name is Arjav Iyer, I will be working as a software developer for Occasio! I am a sophomore at Rock Ridge high school and am proficient in software development and math. I play ECNL RL soccer for Herndon, and varsity for my school! Outside of sports, I am a class president and also participate in many math and computer science competitions.</p>
                 </div>
-                <!-- Team Member 6 -->
+                <!-- Team Member 7 -->
                 <div class="team-member">
-                    <input class="name" type="text" value="Ashwath Muppa" readonly>
-                    <img src="path/to/your-image.jpg" alt="Ashwath Muppa">
-                    <p class="description">Hi, my name is Ashwath Muppa</p>
+                    <input class="name" type="text" value="Person 7" readonly>
+                    <img src="path/to/your-image.jpg" alt="Person 7">
+                    <p class="description">Description of Person 7.</p>
+                </div>
+                <!-- Team Member 8 -->
+                <div class="team-member">
+                    <input class="name" type="text" value="Person 8" readonly>
+                    <img src="path/to/your-image.jpg" alt="Person 8">
+                    <p class="description">Description of Person 8.</p>
                 </div>
             </div>
         </section>
         <section id="future">
             <h1>Future Plans</h1>
-            <p>Our future plans include expanding our platform's features, incorporating user feedback, and continuously improving to meet the evolving needs of our community. We aim to create new tools and resources that will further support high school students in their personal and academic growth.</p>
+            <p>Our future plans include expanding our platform's features, increasing our user base, and forging partnerships with educational institutions and organizations.</p>
         </section>
     </main>
-    <script>
-        document.querySelectorAll('nav ul li a').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            });
-        });
-    </script>
 </body>
 </html>
